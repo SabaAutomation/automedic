@@ -11,4 +11,4 @@ print(f"Running workflow... (simulating: {kind})")
 print("Result:", start_failure(kind))
 
 print("\nAutoMedic is investigating...\n")
-run_agent("A workflow just failed. Investigate, fix it if safe, and report back.")
+run_agent("A workflow just failed. Investigate, fix it if safe, and report back.", kind=kind)
