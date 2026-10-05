@@ -64,7 +64,9 @@ AutoMedic: incident handled.
 - The model could dump a whole plan at once, so the loop now runs one tool per step.
 - If the model replies with text instead of a tool call, the agent nudges it up to twice.
 - The model is set in `.env`, so it can be swapped with one line.
+## Behind the scenes
 
+![How I figured it out](docs/ideation.png)
 ## Roadmap
 
 - [x] Multiple failure types
@@ -76,4 +78,12 @@ AutoMedic: incident handled.
 
 ## Tech
 
-Python, Ollama (Qwen 2.5 Coder), Git
+Python, Ollama (Qwen 2.5 Coder), Git## Demo
+
+![AutoMedic dashboard](docs/dashboard.png)
+
+![AutoMedic dashboard, incident detail](docs/dashboard-2.png)
+
+## Behind the scenes
+
+![How I figured it out](docs/ideation.png)
